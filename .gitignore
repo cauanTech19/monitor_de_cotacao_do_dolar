@@ -1,0 +1,13 @@
+# Arquivos gerados automaticamente pelo pipeline
+historico.json
+relatorio.xlsx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Ambientes virtuais
+venv/
+.venv/
