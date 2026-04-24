@@ -187,7 +187,7 @@ def pipeline() -> None:
         1. Busca cotação atual via API.
         2. Salva no histórico JSON.
         3. Gera relatório Excel com métricas e gráfico.
-        4. Envia resumo formatado via WhatsApp.
+        4. Envia resumo formatado via Email.
     """
     try:
         cotacao: float = buscar_cotacao()
